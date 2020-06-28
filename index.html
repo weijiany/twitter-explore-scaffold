@@ -8,7 +8,38 @@
   <title>Title</title>
 </head>
 <body>
-  Hello World
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="title">
+          <p>Twitter</p>
+        </div>
+
+        <ul>
+          <li><button class="btn-default">登录</button></li>
+          <li><button class="btn-primary">注册</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="form">
+        <p class="form-title center">查看世界上正在发生的事</p>
+
+        <label for="username">电话、邮箱地址或用户名</label>
+        <input type="text" id="username" class="input">
+
+        <label for="password">密码</label>
+        <input type="password" id="password" class="input">
+
+        <p class="forget-password">忘记密码？</p>
+
+        <button class="btn-default">登录</button>
+        <p class="center">或</p>
+        <button class="btn-primary">注册</button>
+      </div>
+    </main>
+  </div>
   <script src="src/app.js"></script>
 </body>
 </html>
